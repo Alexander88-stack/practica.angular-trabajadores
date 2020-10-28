@@ -1,0 +1,15 @@
+<h1>Trabajadores</h1>
+<div class="card" style="width: 18rem;" *ngFor="let user of userList">
+    <img src= {{user.picture.medium}} class="card-img-top" alt="#">
+    <div class="card-body">
+      <h5 class="card-title"> {{user.name.first}} </h5>
+      <p class="card-text">{{ user.email }}</p>
+      <a href="#" class="btn btn-primary">Curriculum</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      This is some text within a card body.
+    </div>
+</div>
+  
